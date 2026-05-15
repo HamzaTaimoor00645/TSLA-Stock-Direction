@@ -344,8 +344,6 @@ print('Saved equity_curve.png')
 
 
 
-# Create the streamlit_app directory and a basic app.py file
-!mkdir -p streamlit_app
 
 streamlit_app_content = """
 import streamlit as st
