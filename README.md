@@ -11,7 +11,7 @@ XGBoost · FinBERT · Alpaca API · scikit-learn · Streamlit
 ## Results
 | Fold | Accuracy | F1    | AUC   |
 |------|----------|-------|-------|
-| Avg  | 52.1%    | 0.499 | 0.533 |
+| Avg  | 52.1%    | 0.509 | 0.533 |
 
 ## Features (35 total)
 - 27 technical indicators (RSI, MACD, Bollinger Bands...)
