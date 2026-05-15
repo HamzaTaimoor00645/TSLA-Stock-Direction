@@ -159,7 +159,6 @@ print(f'Rows with real sentiment:      {nonzero} ({nonzero/len(df):.1%})')
 print(f'Target distribution:           {df["Target"].value_counts().to_dict()}')
 print(f'Date range:                    {df["Date"].min().date()} → {df["Date"].max().date()}')
 
-pip install imbalanced-learn
 
 from sklearn.model_selection import TimeSeriesSplit
 from sklearn.preprocessing import StandardScaler
