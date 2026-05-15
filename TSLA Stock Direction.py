@@ -342,7 +342,7 @@ print(f'Buy & Hold total return: {bnh_total:.1%}')
 print(f'Days invested (of total): {days_in:.1%}')
 print('Saved equity_curve.png')
 
-!streamlit run streamlit_app/app.py
+
 
 # Create the streamlit_app directory and a basic app.py file
 !mkdir -p streamlit_app
