@@ -13,7 +13,7 @@ st.caption("XGBoost + FinBERT Sentiment + Macro Features")
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Average Accuracy", "52.1%", "+2.1% vs random")
 col2.metric("Average AUC",      "0.533",  "+0.033 vs baseline")
-col3.metric("Average F1",       "0.499")
+col3.metric("Average F1",       "0.509")
 col4.metric("Total Features",   "35")
 
 st.divider()
